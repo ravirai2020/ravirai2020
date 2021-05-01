@@ -1,21 +1,21 @@
 [
   {
     "cloudName": "AzureCloud",
-    "homeTenantId": "6f7422ec-7d6c-439d-a616-c722b523266b",
-    "id": "56c94769-00bd-4fab-bb1b-140f3b6ad8ef",
+    "homeTenantId": "xxxxxxxxx",
+    "id": "xxxxxxxx",
     "isDefault": true,
     "managedByTenants": [],
     "name": "Pay-As-You-Go",
     "state": "Enabled",
-    "tenantId": "6f7422ec-7d6c-439d-a616-c722b523266b",
+    "tenantId": "xxxxxx",
     "user": {
-      "name": "trainyourself1@outlook.com",
+      "name": "xxxxx",
       "type": "user"
     }
   }
 ]
 
-to login azure cli -- az login --tenant 6f7422ec-7d6c-439d-a616-c722b523266b (for MFA)
+to login azure cli -- az login --tenant [Tenant ID] (for MFA)
 az group list
 
 https://www.reddit.com/r/Terraform/comments/ksccpf/q_create_multiple_azure_vnets_with_multiple/  -- multiple Vnets
