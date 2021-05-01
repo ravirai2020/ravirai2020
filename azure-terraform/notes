@@ -1,0 +1,30 @@
+[
+  {
+    "cloudName": "AzureCloud",
+    "homeTenantId": "6f7422ec-7d6c-439d-a616-c722b523266b",
+    "id": "56c94769-00bd-4fab-bb1b-140f3b6ad8ef",
+    "isDefault": true,
+    "managedByTenants": [],
+    "name": "Pay-As-You-Go",
+    "state": "Enabled",
+    "tenantId": "6f7422ec-7d6c-439d-a616-c722b523266b",
+    "user": {
+      "name": "trainyourself1@outlook.com",
+      "type": "user"
+    }
+  }
+]
+
+to login azure cli -- az login --tenant 6f7422ec-7d6c-439d-a616-c722b523266b (for MFA)
+az group list
+
+https://www.reddit.com/r/Terraform/comments/ksccpf/q_create_multiple_azure_vnets_with_multiple/  -- multiple Vnets
+
+https://docs.microsoft.com/en-us/azure/developer/terraform/create-linux-virtual-machine-with-infrastructure  -- image
+
+https://docs.microsoft.com/en-us/azure/virtual-network/associate-public-ip-address-vm  -- public ip
+
+https://lucian.blog/terraform-csvs-netflix/
+
+https://ss64.com/nt/set.html  -- how to set env from cmd
+https://www.phillipsj.net/posts/how-to-configure-logging-for-terraform/  -- logging
